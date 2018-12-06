@@ -1,20 +1,33 @@
 {
-  "name": "20181023-positivo-search-banner-office-365-personal-e-home",
+  "name": "microsoft-lp",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "inputmask": "^4.0.4"
+  },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "autoprefixer": "^9.4.2",
+    "babel-loader": "^8.0.4",
     "browser-sync": "^2.26.3",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.7",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-eslint": "^5.0.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sass-lint": "^1.4.0"
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-util": "^3.0.8",
+    "gulp-wait": "^0.0.2",
+    "webpack": "^4.27.1",
+    "webpack-stream": "^5.2.1"
   }
 }
