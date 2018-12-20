@@ -1,0 +1,6 @@
+// Largura de colunas
+// - ...
+
+@function column-width($columns) {
+	@return (100/$grid-base)*$columns#{'%'};
+}

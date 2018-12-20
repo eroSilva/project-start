@@ -1,0 +1,60 @@
+// Variáveis
+// - Cores, medidas, padrões, etc...
+
+
+// Colors
+$color-primary          : #102542 !default;
+$color-secondary        : #184189 !default;
+$color-gray             : #737374 !default;
+$color-text             : $color-gray !default;
+
+
+// Tipografia
+$font-family-base       : 'Arial', sans-serif !default;
+$font-size-base         : 16px !default;
+
+
+// Container e Grid
+$container-xlg          : 1400px !default;
+$container-lg           : 1140px !default;
+$container-md           : 768px !default;
+$space-base             : 10px !default;
+$grid-base              : 12 !default;
+
+
+// Z-index
+$zindex-10              : 10 !default;
+$zindex-9               : 9 !default;
+$zindex-8               : 8 !default;
+$zindex-7               : 7 !default;
+$zindex-6               : 6 !default;
+$zindex-5               : 5 !default;
+$zindex-4               : 4 !default;
+$zindex-3               : 3 !default;
+$zindex-2               : 2 !default;
+$zindex-1               : 1 !default;
+
+
+// Media queries
+$screen-xs              : 360px !default;
+$screen-sm              : 520px !default;
+$screen-md              : 768px !default;
+$screen-lg              : 1200px !default;
+$screen-xlg             : 1400px !default;
+$screen-xxlg            : 1900px !default;
+
+$screen-xs-max          : ($screen-sm - 1) !default;
+$screen-sm-max          : ($screen-md - 1) !default;
+$screen-md-max          : ($screen-lg - 1) !default;
+$screen-lg-max          : ($screen-xlg - 1) !default;
+$screen-xlg-max         : ($screen-xxlg - 1) !default;
+
+$screen-xs-min          : $screen-xs !default;
+$screen-sm-min          : $screen-sm !default;
+$screen-md-min          : $screen-md !default;
+$screen-lg-min          : $screen-lg !default;
+$screen-xlg-min         : $screen-xlg !default;
+$screen-xxlg-min        : $screen-xxlg !default;
+
+$breakpoint-max         : $screen-md-max !default;
+$breakpoint-min         : $screen-lg-min !default;

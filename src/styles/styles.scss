@@ -12,16 +12,19 @@
 
 // [Settings]
 // - Arquivos de configurações.
-
+@import "settings/variables";
 
 // [Tools]
 // - Ferramentas que podem ser utilizadas em várias partes do codigo.
 // Mixins, Functions, etc.
+@import "tools/column-width";
+@import "tools/px-conversor";
 
 
 // [Base]
 // - Estilos básicos de elementos, regras aplicadas diretamente nas
 // tags. Cores em <a>, margens em <p>, etc.
+@import "base/basic";
 
 
 // [Objects]

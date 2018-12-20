@@ -1,0 +1,20 @@
+// Base de estilos
+// - resets
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: normal;
+	color: $color-text;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
